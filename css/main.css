@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html, #weather, main {
+	height: 100%;
+	background-color: #424242;
+	font-family: 'Roboto Slab', serif, bold;
+}
+
+.top {
+	position: relative;
+	height: 33.33%;
+	padding: 1rem 5%;
+	text-align: center;
+	color: #FACE52;
+	text-shadow: 3px 3px 0 #E22828;
+}
+
+.wdata-01 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 0 #E22828;
+}
+
+.wdata-02 {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	font-size: 4rem;
+	text-shadow: 3px 3px 0 #E22828;
+}
+
+.wdata-03 {
+	position: absolute;
+	bottom: 2rem;
+	left: 20%;
+	top: 73%;
+	transform: translateX(-50%);
+	text-shadow: 3px 3px 0 #E22828;
+}
+
+.wdata-04 {
+	position: absolute;
+	bottom: 2rem;
+	left: 80%;
+	top: 73%;
+	transform: translateX(-50%);
+	text-shadow: 3px 3px 0 #E22828;
+}
+
+.icon {
+	position: absolute;
+	top: 100%;
+	left: 40%;
+	font-size: 7rem;
+}
+
+.h, .v, .sr, .ss {
+	color: #FACE52;
+	font-size: 1rem;
+	margin-left: 5%
+	color: #FACE52;
+	float: center;
+}
+
+.wdata-09 {
+	position: absolute;
+	top: 55%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	font-size: .75rem;
+	color: #FACE52;
+	text-align: center;
+}
+
+.wdata-10 {
+	position: absolute;
+	top: 55%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	font-size: .75rem;
+	color: #FACE52;
+	text-align: center;
+}
+
+.wdata-11 {
+	position: absolute;
+	bottom: 3rem;
+	top: 70%;
+	left: 25%;
+	transform: translateX(-50%);
+	color: #FACE52;
+	font-size: .75rem;
+	text-align: center;
+}
+
+.wdata-12 {
+	position: absolute;
+	bottom: 3rem;
+	top: 70%;
+	left: 75%;
+	transform: translateX(-50%);
+	color: #FACE52;
+	font-size: .75rem;
+	text-align: center;
+}
+
+.wdata-13 {
+	position: absolute;
+	bottom: 3rem;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #FACE52;
+	font-size: .75rem;
+	text-align: center;
+}
+
+.bottom {
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	/*height: 100%;*/
+	position: absolute;
+	top: 67.5%;
+	left: 0%;
+}
+
+.bottom img {
+	width: 80%;
+	position: fixed;
+	top: 80%;
+	left: 10%;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
