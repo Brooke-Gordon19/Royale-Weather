@@ -13,19 +13,20 @@ reallySimpleWeather.weather({
     // sample data to display city and temperature
     html = '<main>';
     html += '<section class="top">';
-    html += '<h1 class="wdata-01">'+weather.city+', '+weather.region+'<br>'+weather.country+'</h1>'; 
+    html += '<h1 class="wdata-01">'+weather.city+', '+weather.region+'</h1>'; 
     html += '<h2 class="wdata-02">'+weather.temp+'°'+weather.units.temp+'</h2>';
+    html += '<p class="wdata-14">'+weather.currently+'</p>';
     html += '<h3 class="wdata-03">'+weather.low+'°'+weather.units.temp+'</h3>'; 
     html += '<h4 class="wdata-04">'+weather.high+'°'+weather.units.temp+'</h4>';
     html += '<i class="icon icon-' + weather.code + '"></i>';
     html += '</section>';
 
     html += '<div class="middle">';
-    html += '<h9 class="wdata-09">HUMIDITY <br> '+weather.humidity+'</h9>'; 
-    html += '<h10 class="wdata-10">VISIBILITY <br> '+weather.visibility+'</h10>';
-    html += '<h11 class="wdata-11">SUNRISE <br> '+weather.sunrise+'</h11>';
-    html += '<h12 class="wdata-12">SUNSET <br> '+weather.sunset+'</h12>';
-    html += '<h13 class="wdata-13">WIND SPEED <br> '+weather.wind.speed+' '+weather.units.speed+'</h12>';
+    html += '<p class="wdata-09">HUMIDITY <br> '+weather.humidity+'</p>'; 
+    html += '<p class="wdata-10">VISIBILITY <br> '+weather.visibility+'</p>';
+    html += '<p class="wdata-11">SUNRISE <br> '+weather.sunrise+'</p>';
+    html += '<p class="wdata-12">SUNSET <br> '+weather.sunset+'</p>';
+    html += '<p class="wdata-13">WIND SPEED <br> '+weather.wind.speed+' '+weather.units.speed+'</p>';
     html += '</div class="middle">';
     html += '</section>';
 

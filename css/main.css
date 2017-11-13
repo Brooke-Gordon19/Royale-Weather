@@ -14,7 +14,6 @@ body, html, #weather, main {
 	padding: 1rem 5%;
 	text-align: center;
 	color: #FACE52;
-	text-shadow: 3px 3px 0 #E22828;
 }
 
 .wdata-01 {
@@ -25,7 +24,7 @@ body, html, #weather, main {
 
 .wdata-02 {
 	position: absolute;
-	top: 85%;
+	top: 100%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	margin: 0;
@@ -37,25 +36,36 @@ body, html, #weather, main {
 	position: absolute;
 	bottom: 2rem;
 	left: 20%;
-	top: 73%;
+	top: 87%;
 	transform: translateX(-50%);
-	text-shadow: 3px 3px 0 #E22828;
+	text-shadow: 2px 2px 0 #E22828;
 }
 
 .wdata-04 {
 	position: absolute;
 	bottom: 2rem;
 	left: 80%;
-	top: 73%;
+	top: 87%;
 	transform: translateX(-50%);
-	text-shadow: 3px 3px 0 #E22828;
+	text-shadow: 2px 2px 0 #E22828;
+}
+
+.wdata-14 {
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	transform: translateX(-50%);
+	font-size: 1rem;
+	padding-top: 2.5rem;
+	text-shadow: 2px 2px 0 #E22828;
 }
 
 .icon {
 	position: absolute;
-	top: 100%;
+	top: 40%;
 	left: 40%;
 	font-size: 7rem;
+	text-shadow: 3px 3px 0 #E22828;
 }
 
 .h, .v, .sr, .ss {
